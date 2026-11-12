@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Satria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div>Satria<span>.</span></div>
+      <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="hero">
+        <div class="hero-content">
+          <p class="welcome">Welcome to my portfolio</p>
+          <h1>Halo, saya <span>Satria</span></h1>
+          <h2>Pelajar | Bola Voli &amp; Teknologi</h2>
+          <p class="desc">Selamat datang di website portfolio saya. Yuk, kenali saya lebih dekat dan lihat hal-hal yang saya sukai.</p>
+          <div class="hero-buttons">
+            <a href="#about" class="btn btn-primary">Get to Know Me</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            <a href="#cv" class="btn btn-secondary">📄 Lihat CV</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <div class="profile-card">
+            <img
+              src="jhikkprofil.jpeg"
+              alt="Foto0 Satria"
+              onerror="
+                this.style.display = 'none';
+                this.parentElement.innerText = 'Foto Profil';
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="section-header">
+        <p>About me</p>
+        <h2>Tentang <span>Saya</span></h2>
+        <p class="sub-desc">Sedikit cerita tentang saya dan hal-hal yang saya sukai.</p>
+      </div>
+      <div class="about-container">
+        <div class="about-text">
+          <h3>👋 Halo, saya Satria!</h3>
+          <p>Halo! Saya Satria, seorang pelajar yang aktif dan senang menghabiskan waktu luang dengan berolahraga serta mempelajari hal-hal baru seputar teknologi.</p>
+          <p>Saya memiliki ketertarikan besar pada bidang olahraga, khususnya bola voli, serta terus mengasah keterampilan saya dalam pengembangan web.</p>
+        </div>
+        <div class="skills-container">
+          <h3>💻 My Skills</h3>
+          <div class="skill-box">
+            <div class="skill-info">
+              <span>HTML</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-info">
+              <span>CSS</span>
+              <span>75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-info">
+              <span>JavaScript</span>
+              <span>60%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 60%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+      <div class="section-header">
+        <p>Things I love</p>
+        <h2>Hal yang Saya <span>Sukai</span></h2>
+        <p class="sub-desc">Beberapa kegiatan yang membuat saya senang dan bersemangat.</p>
+      </div>
+      <div class="hobbies-grid">
+        <div class="hobby-card">
+          <div class="hobby-img">
+            <img
+              src="futsal.jpeg"
+              alt="Futsal"
+              onerror="
+                this.style.display = 'none';
+                this.parentElement.innerText = 'Foto Futsal';
+              "
+            />
+          </div>
+          <div class="hobby-body">
+            <span>01</span>
+            <h3>Futsal</h3>
+            <p>Bermain Futsal adalah hobi utama saya untuk melatih kerja sama tim, kecepatan, dan menjaga kebugaran tubuh.</p>
+          </div>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-img">
+            <img
+              src="ngegym.jpg"
+              alt="Olahraga"
+              onerror="
+                this.style.display = 'none';
+                this.parentElement.innerText = 'Foto Olahraga';
+              "
+            />
+          </div>
+          <div class="hobby-body">
+            <span>02</span>
+            <h3>🏃‍♂️ Fitness / Latihan Fisik</h3>
+            <p>Saya juga rutin melakukan latihan fisik pendukung untuk menjaga stamina dan performa saat berolahraga.</p>
+          </div>
+        </div>
+        <div class="hobby-card">
+          <div class="hobby-img">
+            <img
+              src="judika.jpg"
+              alt="musik"
+              onerror="
+                this.style.display = 'none';
+                this.parentElement.innerText = 'Foto Musik';
+              "
+            />
+          </div>
+          <div class="hobby-body">
+            <span>03</span>
+            <h3>Musik &amp; Musik</h3>
+            <p>Suka mengeksplorasi pembuatan website dan mengikuti perkembangan teknologi di era digital saat ini.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv">
+      <div class="section-header">
+        <p>Curriculum vitae</p>
+        <h2>CV <span>Saya</span></h2>
+        <p class="sub-desc">Lihat atau unduh CV saya.</p>
+      </div>
+      <div class="cv-container">
+        <div class="cv-preview">
+          <img
+            src="cv.jpeg"
+            alt="CV Satria"
+            onerror="
+              this.style.display = 'none';
+              this.parentElement.innerText = 'Preview CV';
+            "
+          />
+        </div>
+        <div class="cv-details">
+          <h3>📄 Curriculum Vitae</h3>
+          <p>Lihat CV saya untuk mengetahui informasi lengkap mengenai latar belakang pendidikan, pengalaman organisasi, kemampuan, dan data diri saya.</p>
+          <a href="cv.jpeg" target="_blank" class="btn btn-primary">👁 Lihat CV / Download</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="section-header">
+        <p>Contact me</p>
+        <h2>Yuk, <span>Terhubung</span> dengan Saya</h2>
+        <p class="sub-desc">Temukan dan hubungi saya melalui kontak di bawah ini.</p>
+      </div>
+      <div class="contact-grid">
+        <!-- WhatsApp -->
+        <a href="https://wa.me/6285765816827" class="contact-card" target="_blank" rel="noopener">
+          <div class="contact-icon">💬</div>
+          <div class="contact-info">
+            <h3>WhatsApp</h3>
+            <p>085765816827</p>
+          </div>
+        </a>
+        <!-- Instagram -->
+        <a href="https://instagram.com/satria_0824" class="contact-card" target="_blank" rel="noopener">
+          <div class="contact-icon">📷</div>
+          <div class="contact-info">
+            <h3>Instagram</h3>
+            <p>@satria_0824</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <h3>Satria</h3>
+      <p>Pelajar | Futsal &amp; Teknologi</p>
+      <p style="margin-top: 15px; font-size: 0.85rem">
+        Made with ♥ by Satria<br />
+        &copy; 2026 Satria. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
